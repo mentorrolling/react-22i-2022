@@ -9,6 +9,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <App /> */}
-    <CounterApp />
+    <CounterApp initialState={10} />
+    {/* <CounterApp initialState={5} /> */}
   </React.StrictMode>
 );
